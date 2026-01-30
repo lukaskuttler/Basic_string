@@ -31,3 +31,44 @@ print(text[-3])
 #
 # you can fix this by adding another slash.
 print(text[6//3])
+
+
+
+#-----------------------------
+#you can add two strings
+#additionante
+s1 = "hello"
+s2 = "bye"
+print(s1 + s2)
+print(s1*4) #Only with integer number
+
+
+#String is iterable, you can use for over it
+s1 = "Hello my name is Bob"
+for c in s1 :
+    print(c)
+
+s1 = "I like to give hi fives"
+#Print this string, but replace 'i' with 'y'
+#End result should be : Y lyke to gyve hy fyves
+for c in s1 :
+    if c== "i":
+        print("y", end="")
+    elif c== "I":
+        print("Y", end="")
+    else:
+        print(c, end="")
+print()
+
+
+s1_new = ""
+
+
+
+
+
+
+
+
+
+# 
